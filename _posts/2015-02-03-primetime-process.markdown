@@ -1,8 +1,11 @@
 ---
+author: siri
 layout: post
 title:  "PrimeTime Development Process"
+featimg: primetime/sprint_time_table.png
 date:   2015-02-03 02:20:00
 categories: primetime
+tags: primetime process
 ---
 
 Sprint
@@ -19,13 +22,13 @@ Developer will be assigned to next sprint stories or bug issues before Wednesday
 
 At the end of sprint on Thursday (14th day), sprint meeting must be setup. Sprint master will arrange the estimated issues based on developer estimation. Every story must be estimated and explained in this meeting. Total estimation time from all issues of each developer should not be longer than 5 days.
 
-![Sprint time table](/images/primetime/sprint_time_table.png)
+![Sprint time table](/img/primetime/sprint_time_table.png)
 
 Kanban
 ------
 Kanban board is mainly used in development process including coding, and testing. Our Kanban board will be splited into 4 columns with 6 story statues.
 
-![Kanban](/images/primetime/kanban.png)
+![Kanban](/img/primetime/kanban.png)
 
 Version Control Process
 =======================
@@ -33,7 +36,7 @@ We use Github as a version control repository. Every repository will have two ma
 
 Development branch is branch where developers will fork a new feature branch from here and push it back when task is finished. This branch will be deployed to Development server when development phases is completed.
 
-![Git Flow](/images/primetime/gitflow.png)
+![Git Flow](/img/primetime/gitflow.png)
 
 Master branch is the stable brach. Developers are not allowed to commit any code or artifacts to this branch. Only control master is allowed to merge code from "development" branch into "master" branch. This branch will be deployed to Production server.
 
@@ -54,9 +57,9 @@ Development Process
 8. When code is completed with unit test, developer will move a card to "resolved" stage. Code will be merged into "development" branch.
 9. If bug is occurred, developer much fix bugs on story branch and re-merge into "development" branch again when it's completed.
 
-![Unit Test Result](/images/primetime/unit_test_result.png)
-![Coverage Test Result](/images/primetime/coverage_test_result.png)
-![Integration Test Result](/images/primetime/integration_test_result.png)
+![Unit Test Result](/img/primetime/unit_test_result.png)
+![Coverage Test Result](/img/primetime/coverage_test_result.png)
+![Integration Test Result](/img/primetime/integration_test_result.png)
 
 Deployment Process
 ==================
@@ -72,7 +75,7 @@ Release Process
 * Integration test or scenario test will be automatically run after deployment is completed. Human test may requires to make sure that all functionals are completed. If testing result is not pass, deployer should restore previous build artifact to server immediatly.
 * Only successfully deployed revision will be tagged as release
 
-![Working Environment](/images/primetime/working_environment.png)
+![Working Environment](/img/primetime/working_environment.png)
 
 Hot Fix Process
 ===============
@@ -100,11 +103,11 @@ The example of CheckStyle constraint
 * Name of class, method, parameter, variable must be compiled with PrimeTime Java Style Convention
 
 
-![Checkstyle Warning](/images/primetime/checkstyle_warning.png)
+![Checkstyle Warning](/img/primetime/checkstyle_warning.png)
 
 IDE Compiler Warning
 --------------------
 PrimeTime also uses Java/IDE complier warning messages as a code quality standard. Every class must not have any warning or error present before push to repository.
 
 
-![Eclipse IDE Warning](/images/primetime/eclipse_ide_warning.png)
+![Eclipse IDE Warning](/img/primetime/eclipse_ide_warning.png)

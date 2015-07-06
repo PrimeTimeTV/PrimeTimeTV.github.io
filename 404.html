@@ -1,0 +1,12 @@
+---
+layout: index
+title: Sorry!
+---
+<div class="error">
+    <p>Our popcorn is not ready to serve yet</p>
+    <p>Maybe we can make up for it and then you will come back again?</p>
+</div>
+
+{% for post in site.posts limit:4 %}
+    {% include article_index.html %}
+{% endfor %}
