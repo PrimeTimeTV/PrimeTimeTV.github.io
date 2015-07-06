@@ -2,12 +2,26 @@
   id: siri
   name: Siri Chongasamethaworn
   avatar: /profile-pic.png
-  bio: this is some more information about the author.
-  facebook: https://www.facebook.com/someone
-  twitter: https://twitter.com/someone
-  instagram: http://instagram.com/someone
+  bio: Head of PrimeTime bekery.
+  github: https://github.com/KongZ
   email: siri@goprimetime.tv
 -
-  id: person
+  id: thanapol
+  name: Thanapol Rojanapanpat
   avatar: /profile-pic.png
-  bio: this is some more information about the author.
+  bio: Technical Leader
+  github: https://github.com/thanapolr
+  email: thanapol@goprimetime.tv
+-
+  id: boonyachart
+  name: Boonyachart Kanchanabul
+  avatar: /profile-pic.png
+  bio: Senior Programmer
+  github: https://github.com/izht
+  email: boonyachart@goprimetime.tv
+-
+  id: weerawat
+  name: Weerawat Pongjirasin
+  avatar: /profile-pic.png
+  bio: Unidentify Robot
+  email: weerawat@goprimetime.tv

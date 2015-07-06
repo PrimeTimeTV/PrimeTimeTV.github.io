@@ -43,11 +43,11 @@
         overflow: hidden;
 
         @media screen and (max-width: $from_noslogan_to_icon){
-            padding: 120px 10px;
+            padding: 100px 10px;
         }
 
         .logo {
-            @include paddinghack(100%, 127.27984, 28.97019); // use your logo dimensions here
+            @include paddinghack(100%, 595.28, 208); // use your logo dimensions here
             position: absolute;
             top: 50%;
             left: 50%;

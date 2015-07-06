@@ -22,7 +22,7 @@ layout: index
         {% if author.bio%}
             <p class="bio">{{ author.bio }}</p>
         {% endif %}
-        {% if author.facebook or author.twitter or author.instagram or author.email %}
+        {% if author.facebook or author.twitter or author.instagram or author.github or author.email %}
             <p class="social">
                 {% if author.facebook %}
                     <a href="{{ author.facebook }}" target="_blank" class="noline"><i class="fa fa-facebook"></i></a>
@@ -34,6 +34,10 @@ layout: index
 
                 {% if author.instagram %}
                     <a href="{{ author.instagram }}" target="_blank" class="noline"><i class="fa fa-instagram"></i></a>
+                {% endif %}
+
+                {% if author.github %}
+                    <a href="{{ author.github }}" target="_blank" class="noline"><i class="fa fa-github"></i></a>
                 {% endif %}
 
                 {% if author.email %}
