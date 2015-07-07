@@ -118,3 +118,7 @@ prose:
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
 
+gems:
+  - author_generator
+  - _tag_gen
+  - generate_categories
