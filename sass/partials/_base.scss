@@ -22,8 +22,9 @@ $h_font-weight: $medium;
 $h_text_transform: none;
 
 // Links
-$a_color: $magenta;
-$a_hover_color: $blue;
+$a_color: #02adc1;
+$a_hover_color: #01acc0; // $blue;
+$a_visited_color: #02adc1;
 $a_line: $blue 1px solid;
 
 // Content
@@ -51,6 +52,7 @@ $mainnav_text-transform: uppercase;
 $mainnav_a_color: $a_color;
 $mainnav_a_hover: $a_hover_color;
 $mainnav_a_hover_bg: $lightblue;
+$mainnav_a_visited: $a_visited_color;
 $mainnav_responsive_text_align: center;
 $mainav_parent_plus_display: yes;
 

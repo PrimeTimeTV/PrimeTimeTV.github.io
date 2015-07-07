@@ -25,9 +25,11 @@
 
     a{
         color: $mainnav_a_color;
-
-        &:hover{
+        &:hover {
             color: $mainnav_a_hover;
+        }
+        &:visited {
+            color: $mainnav_a_visited;
         }
     }
 
