@@ -2,7 +2,7 @@
 author: siri
 layout: post
 title:  "PrimeTime Development Process"
-featimg: primetime-process/sprint_time_table.jpg
+featimg: primetime-process/gitflow.jpg
 date:   2015-02-03 02:20:00
 categories: primetime
 tags: primetime process
