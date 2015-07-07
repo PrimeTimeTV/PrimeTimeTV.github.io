@@ -23,6 +23,12 @@ article{
         transition: .3s all ease;
     }
 
+    img.feat-cover {
+        width: 320px; 
+        height: 180px; 
+        object-fit: fill;
+    }
+
     a:hover{
         img{
             opacity: .5;
