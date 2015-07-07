@@ -21,6 +21,7 @@ youtube: "https://www.youtube.com/channel/UC-NfxENspdsqMhHtB2Za3MQ"
 #soundcloud: "#"
 
 encoding: utf-8
+timezone: Asia/Bangkok
 defaults:
   -
     scope:
