@@ -2,21 +2,21 @@
   id: siri
   name: Siri Chongasamethaworn
   avatar: /siri.png
-  bio: Head of PrimeTime bekery.
+  bio: Chief of PrimeTime bekery.
   github: https://github.com/KongZ
   email: siri@goprimetime.tv
 -
   id: thanapol
   name: Thanapol Rojanapanpat
   avatar: /profile-pic.png
-  bio: Technical Leader
+  bio: Recipe Matcher
   github: https://github.com/thanapolr
   email: thanapol@goprimetime.tv
 -
   id: boonyachart
   name: Boonyachart Kanchanabul
   avatar: /profile-pic.png
-  bio: Senior Programmer
+  bio: Cooker
   github: https://github.com/izht
   email: boonyachart@goprimetime.tv
 -
