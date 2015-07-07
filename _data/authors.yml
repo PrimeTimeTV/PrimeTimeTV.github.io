@@ -5,6 +5,7 @@
   bio: Chief of PrimeTime bekery.
   github: https://github.com/KongZ
   email: siri@goprimetime.tv
+  sidebar: true
 -
   id: thanapol
   name: Thanapol Rojanapanpat
@@ -12,6 +13,7 @@
   bio: Recipe Matcher
   github: https://github.com/thanapolr
   email: thanapol@goprimetime.tv
+  sidebar: false
 -
   id: boonyachart
   name: Boonyachart Kanchanabul
@@ -19,21 +21,25 @@
   bio: Cooker
   github: https://github.com/izht
   email: boonyachart@goprimetime.tv
+  sidebar: false
 -
   id: weerawat
   name: Weerawat Pongjirasin
   avatar: /profile-pic.png
   bio: Unidentified Robot
   email: weerawat@goprimetime.tv
+  sidebar: false
 -
   id: noppatee
   name: Noppatee Panichauttra
   avatar: /profile-pic.png
   bio: Unidentified Robot
   email: noppatee@goprimetime.tv
+  sidebar: false
 -
   id: kritsana
   name: Kritsana Uttamang
   avatar: /profile-pic.png
   bio: Unidentified Robot
   email: kritsana-u@goprimetime.tv
+  sidebar: false

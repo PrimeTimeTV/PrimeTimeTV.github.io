@@ -1,5 +1,6 @@
 <div class="sidebar">
 <!--
+    {% comment %}
     <div class="widget">
         <h3 class="title">Categories</h3>
         <ul class="category_list">
@@ -16,7 +17,8 @@
             {% assign category_list = nil %}
         </ul>
     </div>
--->    
+    {% endcomment %}
+-->
     <div class="widget">
         <h3 class="title">Tags</h3>
         <ul class="tag_list">
@@ -38,6 +40,7 @@
         <h3 class="title">Authors</h3>
         <ul class="author_list">
             {% for author in site.data.authors %}
+                {% if author.sidebar == true %}
                 <li>
                     <a href="{{ site.author_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ author.id }}">
                         {% if author.name %}
@@ -47,6 +50,7 @@
                         {% endif %}
                     </a>
                 </li>
+                {% endif %}
             {% endfor %}
         </ul>
     </div>
