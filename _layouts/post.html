@@ -46,11 +46,6 @@
                                 Published on {{ page.date | date: '%B %d, %Y' }}
                             </span>
                         </div>
-                        {% if page.type == "standard" %}
-                            {% if page.featimg %}
-                                <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
-                            {% endif %}
-                        {% endif %}
                         <div class="post_content">
                             {{ content }}
                         </div>
