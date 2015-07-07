@@ -2,7 +2,7 @@
 author: siri
 layout: post
 title:  "PrimeTime Content Process"
-featimg: content-process/content_process.png
+featimg: content-process/content_process.jpg
 date:   2015-07-07 13:21:00
 categories: primetime
 tags: primetime process
@@ -12,7 +12,7 @@ Kanban
 ------
 Kanban board is mainly used in entire PrimeTime company. Before content is released to the customer, the content must be processed in 5 steps.
 
-![Content Operation Kanban](/img/content-process/content_process.png)
+![Content Operation Kanban](/img/content-process/content_process.jpg)
 
 ## 1. Acquired
 Content can be acquired from many sources. Every planing content and acquired content must be registered into this step. If content has been planned to release, the release date should be written down in the card.
