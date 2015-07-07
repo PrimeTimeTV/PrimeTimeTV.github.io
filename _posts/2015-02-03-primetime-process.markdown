@@ -10,7 +10,7 @@ tags: primetime process
 
 Sprint
 =======
-PrimeTime sprint lenght is 2 weeks. Sprint will be started on Friday and complete on Thursday after two weeks.
+PrimeTime sprint length is 2 weeks. Sprint will be started on Friday and complete on Thursday after two weeks.
 For example: Sprint #1 is started at 1st Friday, it will be completed at 14th Thursday.
 
 Sprint will be separated into two phases.
