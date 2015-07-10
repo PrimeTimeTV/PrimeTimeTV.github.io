@@ -13,7 +13,7 @@
   bio: Recipe Matcher
   github: https://github.com/thanapolr
   email: thanapol@goprimetime.tv
-  sidebar: false
+  sidebar: true
 -
   id: boonyachart
   name: Boonyachart Kanchanabul
@@ -49,4 +49,4 @@
   avatar: /profile-pic.png
   bio: Master of Robot
   email: dayin@goprimetime.tv
-  sidebar: false
+  sidebar: true
