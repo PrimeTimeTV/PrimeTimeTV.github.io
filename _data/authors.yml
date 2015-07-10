@@ -43,3 +43,10 @@
   bio: Unidentified Robot
   email: kritsana-u@goprimetime.tv
   sidebar: false
+-
+  id: dayin
+  name: Dayin Promkotwong
+  avatar: /profile-pic.png
+  bio: Master of Robot
+  email: dayin@goprimetime.tv
+  sidebar: false
