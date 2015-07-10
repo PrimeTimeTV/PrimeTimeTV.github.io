@@ -1,6 +1,6 @@
 ---
 author: dayin
-layout: post
+layout: page
 featimg: 
 title: ใช้ Jira แบบ PrimeTime
 date:   2015-07-10 00:00:00
