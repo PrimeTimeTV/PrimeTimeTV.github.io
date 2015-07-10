@@ -1,7 +1,7 @@
 ---
 author: thanapol
 layout: post
-featimg: laravel/laravel_intro.jpg
+featimg: https://cloud.githubusercontent.com/assets/965500/8615902/15db7970-2721-11e5-9649-33e10e398412.jpg
 title: Introduction to Laravel
 date:   2015-07-10 00:00:00
 categories: primetime
