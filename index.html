@@ -3,7 +3,9 @@ layout: index
 description: What's the meaning of life universe and everything of PrimeTime
 ---
 {% for post in paginator.posts %}
+    {% if post.draft != true %}
     {% include article_index.html %}
+    {% endif %}
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}

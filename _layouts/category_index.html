@@ -2,5 +2,7 @@
 layout: index
 ---
 {% for post in site.categories[page.category] %}
-    {% include article_index.html %}
+    {% if post.draft != true %}
+    	{% include article_index.html %}
+    {% endif %}
 {% endfor %}
