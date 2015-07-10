@@ -36,7 +36,7 @@ The PHP framework for Web Developer
 
 ###### Project Structure
 ```
-<project>
+project
  | - app/
  | - conf/
  | - public/ 
@@ -49,7 +49,7 @@ The PHP framework for Web Developer
 * storage/ - contains the internal files
 
 ###### Run The Project
-* ```cd <project>/public```
+* ```cd project/public```
 * ```php -S localhost:8888``` run the project using built-in php web service
 
 ###### Useful 3rd library
