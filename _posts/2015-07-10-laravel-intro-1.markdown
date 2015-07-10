@@ -35,13 +35,14 @@ The PHP framework for Web Developer
 
 
 ###### Project Structure
-
+```
 project
- | - app/
- | - conf/
- | - public/ 
- | - resources/views
- | - storage/
+ + - app/
+ + - conf/
+ + - public/ 
+ + - resources/views
+ + - storage/
+```
 
 * app/ - contains Model, Controller
 * public/ - contains the index.php and other public files such as css, js, image.
