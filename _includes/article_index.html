@@ -19,7 +19,11 @@
         {% else %}
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
+                    {% if post.featimg contains "http://" or post.featimg contains "https://" %}
+                    <img src="{{ post.featimg }}" alt="{{ post.featimg }}" class="feat-cover">
+                    {% else %}
                     <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.featimg }}" class="feat-cover">
+                    {% endif %}
                 </a>
             {% endif %}
         {% endif %}
@@ -33,7 +37,11 @@
         {% else %}
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
+                    {% if post.featimg contains "http://" or post.featimg contains "https://" %}
+                    <img src="{{ post.featimg }}" alt="{{ post.featimg }}" class="feat-cover">
+                    {% else %}
                     <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.featimg }}" class="feat-cover">
+                    {% endif %}
                 </a>
             {% endif %}
         {% endif %}

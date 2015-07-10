@@ -28,7 +28,11 @@
                             {% endif %}
                         {% elsif page.type == "image" or page.type == "gallery" %}
                             {% if page.featimg %}
+                                {% if page.featimg contains "http://" or page.featimg contains "https://" %}
+                                <img class="featimg" src="{{ page.featimg }}" alt="{{ page.featimg }}">
+                                {% else %}
                                 <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
+                                {% endif %}
                             {% endif %}
                         {% elsif page.type == "audio" %}
                             {% if page.audio-embed %}
