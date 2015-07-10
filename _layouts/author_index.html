@@ -49,8 +49,10 @@ layout: index
  </div>
 {% endfor %}
 {% for post in site.posts %}
-    {% if post.author contains page.author %}
-        {% include article_index.html %}
+    {% if post.draft != true %}
+        {% if post.author contains page.author %}
+            {% include article_index.html %}
+        {% endif %}
     {% endif %}
 {% endfor %}
 
