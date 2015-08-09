@@ -4,7 +4,7 @@ layout: post
 featimg: cassandra-benchmark/ring-topology.png
 title: Benchmarking Cassandra in PrimeTime
 date:   2015-02-01 00:00:00
-tags: cassandra
+tags: cassandra,benchmark
 draft: false
 ---
 
