@@ -102,7 +102,7 @@ EC2 4 instances of m3.xlarge On-Demand is 1274.46$ a month. If we sign a 1 year 
 Assume that we use On-Demand so total cost per minutes is 0.029$ per minute.
 
 AWS cost calculator
-http://calculator.s3.amazonaws.com/index.html
+[http://calculator.s3.amazonaws.com/index.html](http://calculator.s3.amazonaws.com/index.html)
 
 Final Thoughts
 --------------
