@@ -56,11 +56,72 @@ Keyspace: Keyspace1:
         sstable_compression: org.apache.cassandra.io.compress.LZ4Compressor
 ```
 
-Testing
+Benmarking
 -------
+I performed the testing on 1 millions row insert and read records. Each row contains 4 columns
+
 The testing command is
 ```
 ./cassandra-stress -d "{list of node IP}" -e QUORUM -n 1000000 -l 3 -t 100 -o INSERT -r -R NetworkTopologyStrategy
 
 ```
+
+Insert operation
+```
+Averages from the middle 80% of values:
+interval_op_rate          : 10057
+interval_key_rate         : 10057
+latency median            : 1.1
+latency 95th percentile   : 4.1
+latency 99.9th percentile : 162.0
+Total operation time      : 00:01:43
+```
+The results shown that 1 million records are inserted into Cassandra in 103 seconds. The latency at 95th percentile is only 4.1 milliseconds.
+
+Read operation
+```
+Averages from the middle 80% of values:
+interval_op_rate          : 13201
+interval_key_rate         : 13201
+latency median            : 1.8
+latency 95th percentile   : 7.7
+latency 99.9th percentile : 68.1
+Total operation time      : 00:01:22
+```
+The results shown that 1 million records are read from Cassandra in 82 seconds. The latency at 95th percentile is 7.1 milliseconds.
+
+Cost
+----
+The total cost are calculated from EC2 instance costs. Since there is no inter-region so network traffic costs will not be included.
+
+EC2 4 instances of m3.xlarge On-Demand is 1274.46$ a month. If we sign a 1 year hard-contract, it will be 110.80$ a month.
+
+Assume that we use On-Demand so total cost per minutes is 0.029$ per minute.
+
+AWS cost calculator
+http://calculator.s3.amazonaws.com/index.html
+
+Final Thoughts
+--------------
+Assume that one customer play a movie, it will require the following API
+* Login
+* Get home catalog
+* Get content detail
+* Play
+* DRM verification
+
+Minimum requests for playing on movie of single customer are 5 requests. Let's says 3 requests required insert operations. So it will be 5 read and 3 insert. Our acceptable response time for each requests are 0.2 seconds.
+
+Total concurrent write records in 200 ms are ((1,000,000*200)/103,000) = 1,942 records
+Total concurrent read records in 200 ms are ((1,000,000*200)/103,000) = 2,410 records
+...
+Total concurrent users (write) are (1,942/3) = 647 users
+Total concurrent users (read) are (2,410/5) = 482 users
+
+So with 4 instances of Cassandra, we will able to support concurrent 482 users in 200 ms or 144,600 users in 1 minute at cost 0.029$
+
+Note: This is only roughly calculate for estimating quick solution for seting up the architecture. There are other constraint such as number of Threads and other optimization that are not writen in this blog.
+
+
+
 
