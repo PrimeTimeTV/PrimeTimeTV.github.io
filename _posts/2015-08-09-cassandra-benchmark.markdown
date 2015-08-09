@@ -3,7 +3,7 @@ author: siri
 layout: post
 featimg: cassandra-benchmark/ring-topology.png
 title: Benchmarking Cassandra in PrimeTime
-date:   2015-02-01 00:00:00
+date:   2015-08-09 21:45:00
 tags: cassandra benchmark aws
 draft: false
 ---
