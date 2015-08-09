@@ -107,6 +107,7 @@ http://calculator.s3.amazonaws.com/index.html
 Final Thoughts
 --------------
 Assume that one customer play a movie, it will require the following API
+
 * Login
 * Get home catalog
 * Get content detail
