@@ -114,7 +114,7 @@ Minimum requests for playing on movie of single customer are 5 requests. Let's s
 
 Total concurrent write records in 200 ms are ((1,000,000*200)/103,000) = 1,942 records
 Total concurrent read records in 200 ms are ((1,000,000*200)/103,000) = 2,410 records
-...
+
 Total concurrent users (write) are (1,942/3) = 647 users
 Total concurrent users (read) are (2,410/5) = 482 users
 
