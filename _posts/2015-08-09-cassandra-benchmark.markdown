@@ -29,7 +29,7 @@ Cassandra Configuration
 Cassandra keyspace is created with a Replication Factor of 3 and single availability zone. If single instance is outage, the Cassandra ring still has a 2 copied of data and continue serve requests. Read and Write consistency, we use QUORUM level so our read/write data always 2 nodes. 
 
 Cassandra Keyspace Configuration
-``` scss
+```
 Keyspace: Keyspace1:
   Replication Strategy: org.apache.cassandra.locator.NetworkTopologyStrategy
   Durable Writes: true
@@ -61,13 +61,12 @@ Benmarking
 I performed the testing on 1 millions row insert and read records. Each row contains 4 columns
 
 The testing command is
-``` scss
+```
 ./cassandra-stress -d "{list of node IP}" -e QUORUM -n 1000000 -l 3 -t 100 -o INSERT -r -R NetworkTopologyStrategy
-
 ```
 
 Insert operation
-``` scss
+```
 Averages from the middle 80% of values:
 interval_op_rate          : 10057
 interval_key_rate         : 10057
@@ -79,7 +78,7 @@ Total operation time      : 00:01:43
 The results shown that 1 million records are inserted into Cassandra in 103 seconds. The latency at 95th percentile is only 4.1 milliseconds.
 
 Read operation
-``` scss
+```
 Averages from the middle 80% of values:
 interval_op_rate          : 13201
 interval_key_rate         : 13201
@@ -121,7 +120,4 @@ Total concurrent users (read) are (2,410/5) = 482 users
 So with 4 instances of Cassandra, we will able to support concurrent 482 users in 200 ms or 144,600 users in 1 minute at cost 0.029$
 
 Note: This is only roughly calculate for estimating quick solution for seting up the architecture. There are other constraint such as number of Threads and other optimization that are not writen in this blog.
-
-
-
 
