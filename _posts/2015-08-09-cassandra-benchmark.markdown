@@ -26,7 +26,7 @@ The Apache Cassandra is deployed on Linux and Oracle JVM 1.7.0_54. The Cassandra
 
 Cassandra Configuration
 -----------------------
-Cassandra keyspace is created with a Replication Factor of 3 and single availability zone. If single instance is outage, the Cassandra ring still has a 2 copied of data and continue serve requests. If entire data center is outage, the service will not be survided. (To increase availability multiple data center is recommended) Read and Write consistency, we use QUORUM level so our read/write data always 2 nodes. 
+Cassandra keyspace is created with a Replication Factor of 3 and single availability zone. If single instance is outage, the Cassandra ring still has a 2 copied of data and continue serve requests. If entire data center is outage, the service will not be survived. (To increase availability, multiple data center is recommended) Read and Write consistency, we use QUORUM level so our read/write data always 2 nodes. 
 
 Cassandra Keyspace Configuration
 
