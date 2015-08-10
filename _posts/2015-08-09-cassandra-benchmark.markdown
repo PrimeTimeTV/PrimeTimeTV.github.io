@@ -114,7 +114,7 @@ Assume that one customer play a movie, it will require the following API
 * Play
 * DRM verification
 
-Minimum requests for playing on movie of single customer are 5 requests. Let's says 3 requests required insert operations. So it will be 5 read and 3 insert. Our acceptable response time for each requests are 0.2 seconds.
+Minimum requests for playing a movie of single customer are 5 requests. Let's says 3 requests required insert operations. So it will be 5 read and 3 insert. Our acceptable response time for each requests are 0.2 seconds.
 
 
 Total concurrent write records in 200 ms are `((1,000,000 * 200) / 103,000) = 1,942` records
