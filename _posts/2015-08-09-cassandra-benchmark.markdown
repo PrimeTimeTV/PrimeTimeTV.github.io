@@ -93,6 +93,20 @@ Total operation time      : 00:01:22
 ```
 The results shown that 1 million records are read from Cassandra in 82 seconds. The latency at 95th percentile is 7.1 milliseconds.
 
+Node status after run stress test. Each instance contains ~75% of data from 3 replica
+
+```
+Datacenter: ap-southeast
+========================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+--  Address      Load       Tokens  Owns (effective)  Host ID                               Rack
+UN  xx.xx.xx.xx  41.79 MB   256     73.2%             9f219e32-8adf-4d22-9799-bd2fb213a5a3  1a
+UN  xx.xx.xx.xx  48.42 MB   256     76.2%             8385e6e2-f491-4af4-925d-f86d6cbb8950  1a
+UN  xx.xx.xx.xx  49.96 MB   256     78.5%             290f4674-820e-4379-a6c9-3c1418c23bc4  1a
+UN  xx.xx.xx.xx  42.07 MB   256     72.1%             9ddcdcbb-8073-4f86-8ec1-fb4e44858b0b  1a
+```
+
 Cost
 ----
 The total cost are calculated from EC2 instance costs. Since there is no inter-region so network traffic costs will not be included.
