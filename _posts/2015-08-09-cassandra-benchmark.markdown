@@ -29,6 +29,7 @@ Cassandra Configuration
 Cassandra keyspace is created with a Replication Factor of 3 and single availability zone. If single instance is outage, the Cassandra ring still has a 2 copied of data and continue serve requests. Read and Write consistency, we use QUORUM level so our read/write data always 2 nodes. 
 
 Cassandra Keyspace Configuration
+
 ```
 Keyspace: Keyspace1:
   Replication Strategy: org.apache.cassandra.locator.NetworkTopologyStrategy
@@ -61,12 +62,13 @@ Benmarking
 I performed the testing on 1 millions row insert and read records. Each row contains 4 columns
 
 The testing command is
+
 ```
 ./cassandra-stress -d "{list of node IP}" -e QUORUM -n 1000000 -l 3 -t 100 -o INSERT -r -R NetworkTopologyStrategy
-
 ```
 
 Insert operation
+
 ```
 Averages from the middle 80% of values:
 interval_op_rate          : 10057
@@ -79,6 +81,7 @@ Total operation time      : 00:01:43
 The results shown that 1 million records are inserted into Cassandra in 103 seconds. The latency at 95th percentile is only 4.1 milliseconds.
 
 Read operation
+
 ```
 Averages from the middle 80% of values:
 interval_op_rate          : 13201
@@ -99,11 +102,12 @@ EC2 4 instances of m3.xlarge On-Demand is 1274.46$ a month. If we sign a 1 year 
 Assume that we use On-Demand so total cost per minutes is 0.029$ per minute.
 
 AWS cost calculator
-http://calculator.s3.amazonaws.com/index.html
+[http://calculator.s3.amazonaws.com/index.html](http://calculator.s3.amazonaws.com/index.html)
 
 Final Thoughts
 --------------
 Assume that one customer play a movie, it will require the following API
+
 * Login
 * Get home catalog
 * Get content detail
@@ -112,16 +116,17 @@ Assume that one customer play a movie, it will require the following API
 
 Minimum requests for playing on movie of single customer are 5 requests. Let's says 3 requests required insert operations. So it will be 5 read and 3 insert. Our acceptable response time for each requests are 0.2 seconds.
 
-Total concurrent write records in 200 ms are ((1,000,000*200)/103,000) = 1,942 records
-Total concurrent read records in 200 ms are ((1,000,000*200)/103,000) = 2,410 records
-...
-Total concurrent users (write) are (1,942/3) = 647 users
-Total concurrent users (read) are (2,410/5) = 482 users
+
+Total concurrent write records in 200 ms are `((1,000,000 * 200) / 103,000) = 1,942` records
+Total concurrent read records in 200 ms are `((1,000,000 * 200) / 82,000) = 2,410` records
+
+
+Total concurrent users (write) are `(1,942/3) = 647` users
+Total concurrent users (read) are `(2,410/5) = 482` users
+
 
 So with 4 instances of Cassandra, we will able to support concurrent 482 users in 200 ms or 144,600 users in 1 minute at cost 0.029$
 
-Note: This is only roughly calculate for estimating quick solution for seting up the architecture. There are other constraint such as number of Threads and other optimization that are not writen in this blog.
 
-
-
+**Note:** This is only roughly calculate for estimating quick solution for seting up the architecture. There are other constraint such as number of Threads and other optimization that are not writen in this blog.
 
