@@ -11,7 +11,7 @@ draft: false
 Benchmarking Cassandra in PrimeTime
 ===================================
 
-PrimeTime using Apache Cassandra since the beginning. We use Apache Cassandra as a main storage for storing almost everything in PrimeTime Server. Before we made a decition, we need to run a test to validate our service performance and scalability on Apache Cassandra. 
+PrimeTime using Apache Cassandra since the beginning. We use Apache Cassandra as a main storage for storing almost everything in PrimeTime Server. Before we made a decision, we need to run a test to validate our service performance and scalability on Apache Cassandra. 
 
 To benchmark a Apache Cassandra, we use "cassandra-stress" tool. Since our service is implemented and build on AWS, so we configured the Cassandra to optimize as much as possible with AWS such as Ec2Snitch. The measure are not tested on real production environment. Our production environment is classified and not allowed to expose in the public domain.
 
@@ -59,7 +59,7 @@ Keyspace: Keyspace1:
 
 Benmarking
 -------
-I performed the testing on 1 millions row insert and read records. Each row contains 4 columns
+I performed the testing on 1 million rows insert and read records. Each row contains 4 columns. Use random key generator for rowkey.
 
 The testing command is
 
