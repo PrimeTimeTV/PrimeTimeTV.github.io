@@ -1,6 +1,6 @@
 name: Blog PrimeTime
 description: The funny stuffs of PrimeTime
-url: blog.goprimetime.tv
+url: http://blog.goprimetime.tv
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
 paginate: 8
