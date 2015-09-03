@@ -8,8 +8,6 @@ tags: aws push-notification
 draft: false
 ---
 
-# PrimeTime mobile push notifications
-
 การส่ง Push notification ช่วยให้สามารถส่งข่าวสารต่างๆ ไปยังลูกค้าได้อย่างรวดเร็ว ปัจจุุบัน PrimeTime มีแอพมือถืออยู่ 2 แพลทฟอร์ม iOS และ Android การส่งข้อความไปทั้ง 2 แพลทฟอร์มก็ต้องจัดการต่างกัน และเนื่องจากเราใช้บริการของ AWS อยู่แล้ว ตัว AWS นั้นก็มีบริการที่เข้ามาช่วยในการส่ง Push ให้เราจึงเลือกใช้บริการนี้มาจัดการให้
 
 ### Amazon SNS (Amazon Simple Notification Service)
