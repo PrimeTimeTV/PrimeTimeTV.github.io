@@ -73,6 +73,7 @@
          url('../fonts/sukhumvittadmai/sukhumvittadmai_thi-webfont.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
+    unicode-range: U+E00-E7F;
 }
 @font-face {
     font-family: 'sukhumvit_tadmai';
@@ -82,6 +83,7 @@
          url('../fonts/sukhumvittadmai/sukhumvittadmai_lig-webfont.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
+    unicode-range: U+E00-E7F;
 }
 @font-face {
     font-family: 'sukhumvit_tadmai';
@@ -91,6 +93,7 @@
          url('../fonts/sukhumvittadmai/sukhumvittadmai_tex-webfont.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    unicode-range: U+E00-E7F;
 }
 @font-face {
     font-family: 'sukhumvit_tadmai';
@@ -100,6 +103,7 @@
          url('../fonts/sukhumvittadmai/sukhumvittadmai_med-webfont.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
+    unicode-range: U+E00-E7F;
 }
 @font-face {
     font-family: 'sukhumvit_tadmai';
@@ -109,6 +113,7 @@
          url('../fonts/sukhumvittadmai/sukhumvittadmai_sebold-webfont.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+    unicode-range: U+E00-E7F;
 }
 @font-face {
     font-family: 'sukhumvit_tadmai';
@@ -118,12 +123,13 @@
          url('../fonts/sukhumvittadmai/sukhumvittadmai_bol-webfont.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    unicode-range: U+E00-E7F;
 }
 
 // Font Weights
-$black: 700;
-$medium: 400;
-$light: 200;
+$black: 900;
+$medium: 500;
+$light: 300;
 
 // Font Variables
-$roboto: "sukhumvit_tadmai", Roboto", "Calibri", "Arial", sans-serif;
+$roboto: "sukhumvit_tadmai", "Roboto", "Calibri", "Arial", sans-serif;
