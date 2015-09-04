@@ -1,7 +1,7 @@
 ---
 author: boonyachart
 layout: post
-featimg: https://cloud.githubusercontent.com/assets/3109773/9657073/175687e6-5268-11e5-8f4d-e8be1174842b.png
+featimg: https://cloud.githubusercontent.com/assets/3109773/9676885/623ed0b2-52fc-11e5-96e7-c71ecfaff390.png
 title: PrimeTime mobile push notifications
 date: 2015-09-03 18:00:00
 tags: aws push-notification
@@ -14,7 +14,7 @@ draft: false
 
 เป็นบริการส่งข้อความของทาง AWS ซึ่งไม่ใช่ส่งแค่ push notification แต่ยังสามารถส่งไปยังช่องทางอื่นๆ เช่น email, SMS เป็นต้น หลักการของ SNS นั้นคือให้เราสร้าง Topic แล้ว subscribe แต่ละ device ไปที่ Topic นั้น จากนั้นเมื่อเราจะส่งค่าไปยัง device ต่างๆ ก็เพียงแค่ส่ง message ไปยัง Topic เดียว แล้วทุก device ที่ subscribe ไว้ก็จะได้รับข้อความกันทั้งหมดโดยไม่ต้องเสียพลังงานบน server ของเราเอง วน loop หา device เลย
 
-![](https://cloud.githubusercontent.com/assets/3109773/9657073/175687e6-5268-11e5-8f4d-e8be1174842b.png)
+![](https://cloud.githubusercontent.com/assets/3109773/9676885/623ed0b2-52fc-11e5-96e7-c71ecfaff390.png)
 
 ### How we use it
 
@@ -27,7 +27,7 @@ draft: false
 
 เมื่อ client ลงทะเบียนกับ Apple Push Notification Service (APNS) หรือ Google Cloud Messaging for Android (GCM)  สำเร็จแล้วก็ส่งค่า Device token จาก APNS หรือ Registration ID จาก GCM มายัง server จากนั้น server จะนำ token/id มา register กับ Application บน SNS จะได้เป็น Endpoint และก็นำ Endpoint ไป subscribe กับ Topic ของ SNS
 
-จากนั้นหากจะส่งข้อความไปยัง Device ก็สามารถส่งไปยัง Endpoint บน SNS ได้เลย ส่วนถ้าจะส่งแบบ Broadcast ไปหลายเครื่องก็ส่งไปที่ Topic ซึ่งทุก Endpoint ที่ subscribe ไว้กับ Topic นี้จะได้รับ message เหมือนกันทั้งหมด การส่ง Push notification ผ่าน SNS ช่วยให้เราประหยัดทรัพยากรไปได้มาก โดยไม่ต้องกังวลกกับจำนวน Device ที่เพิ่มขึ้น แต่อย่างไรก็ตาม เราก็ยังพบปัญหาบางประการอยู่..
+จากนั้นหากจะส่งข้อความไปยัง Device ก็สามารถส่งไปยัง Endpoint บน SNS ได้เลย ส่วนถ้าจะส่งแบบ Broadcast ไปหลายเครื่องก็ส่งไปที่ Topic ซึ่งทุก Endpoint ที่ subscribe ไว้กับ Topic นี้จะได้รับ message เหมือนกันทั้งหมด การส่ง Push notification ผ่าน SNS ช่วยให้เราประหยัดทรัพยากรไปได้มาก โดยไม่ต้องกังวลกับจำนวน Device ที่เพิ่มขึ้น แต่อย่างไรก็ตาม เราก็ยังพบปัญหาบางประการอยู่..
 
 ### The problem
 
