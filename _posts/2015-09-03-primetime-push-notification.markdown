@@ -42,6 +42,7 @@ draft: false
 ### Future improvement
 
 จาก [Document](http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/sns/model/SetEndpointAttributesRequest.html) ของ AWS พูดถึง Enable ไว้ว่า 
+
 > Enabled -- flag tat enables/disables delivery to the endpoint. Message Processor will set this to false when a notification service indicates to SNS that the endpoint is invalid. Users can set it back to true, typically after updating Token.
 
 ซึ่ง notification service ในที่นี้ก็คือ APNS/GCM ซึ่งก็ต้องไปหาสาเหตุกันอีกทีว่าทำไมถึงบอก SNS ว่า endpoint invalid ไปแล้ว
