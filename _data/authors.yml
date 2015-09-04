@@ -21,7 +21,7 @@
   bio: Cooker
   github: https://github.com/izht
   email: boonyachart@goprimetime.tv
-  sidebar: false
+  sidebar: true
 -
   id: weerawat
   name: Weerawat Pongjirasin
