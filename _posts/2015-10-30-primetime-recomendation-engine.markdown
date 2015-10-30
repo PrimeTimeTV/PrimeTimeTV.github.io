@@ -3,7 +3,7 @@ author: siri
 layout: post
 featimg: recomendation-engine/recommended_for_you.png
 title: How PrimeTime recommend movie to customer
-date:   2015-10-31 15:28:00
+date:   2015-10-30 15:28:00
 tags: primetime recommendation
 draft: false
 ---
