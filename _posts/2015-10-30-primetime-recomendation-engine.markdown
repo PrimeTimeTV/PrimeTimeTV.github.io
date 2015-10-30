@@ -16,13 +16,13 @@ Now, when you want to watch a movie online, who will recommend a movie for you? 
 
 Solution
 ========
-We create big data to observe user behavior and use artificial intelligent to learn user characteristic and the movie. So we can pick the right movies and shown up to the user in the recommendation section.
+We create big data to observe user behavior and use artificial intelligent to learn user characteristic and the movie. So we can pick the right movies and show up to the user in the recommendation section.
 
 ![Recomenation for you](/img/recomendation-engine/recommended_for_you.png)
 
 Results
 =======
-We collected the result after release this feature to the users after 2 months. There is no guide is available or any advertisment. We just released this feature siliently and observed how user recognized the feature and how they used it.
+We collected the result after release this feature to the users after 2 months. There is no guide available or any advertisment. We just released this feature siliently and observed how user recognized the feature and how they used it.
 
 The funnel was calculated based on number of trials which customers view the content from recommended title and number content that customer play after view this recommended title.
 
