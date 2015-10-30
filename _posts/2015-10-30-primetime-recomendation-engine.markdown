@@ -28,5 +28,5 @@ The funnel was calculated based on number of trials which customers view the con
 
 ![Recomenation for you](/img/recomendation-engine/recomendation_results.png)
 
-We found that 77.86% of trials watch the movie that we recommended to them. 
+We found that 77.86% of trials watched the movie that we recommended to them. 
 
