@@ -5,7 +5,7 @@ featimg: recomendation-engine/recommended_for_you.png
 title: How PrimeTime recommend movie to customer
 date:   2015-10-31 15:28:00
 tags: primetime recommendation
-draft: true
+draft: false
 ---
 
 Inspiration
