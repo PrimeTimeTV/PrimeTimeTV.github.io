@@ -12,7 +12,7 @@ Inspiration
 ===========
 What is different between online store and offline store? It is not just only physical goods but also the shopkeeper. In the past, when you go to video rental store, you can ask the shopkeeper to recommend a new movie for you. The shopkeeper remembers  movies you rent in the past, what is your favourite movie and what is your dislike movie. He use your data to suggests a new movie for you to watch.
 
-Now, when you what to watch a movie online, who will recommend a movie for you? You may read several movie reviews on websites and blogs but reviewer favor may difference from you. And will every movie are reviewed?
+Now, when you want to watch a movie online, who will recommend a movie for you? You may read several movie reviews on websites and blogs but reviewer favor may difference from you. And will every movie are reviewed?
 
 Solution
 ========
