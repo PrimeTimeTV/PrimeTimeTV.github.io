@@ -119,7 +119,7 @@ Server availability 99.98%
 6. ไอฟาย..แต๊งกิ้ว..เลิฟยู้
 7. พี่มากพระโขนง
 8. the others
-9. hitting the Apex
+9. hitting the apex
 10. barbie
 
 ผู้ใช้งานค้นหาหนังและดูจำนวน 74.58%
