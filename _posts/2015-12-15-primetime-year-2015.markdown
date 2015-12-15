@@ -43,13 +43,13 @@ Server availability 99.98%
 
 ![Mobile OS](/img/primetime-2015/mobile_os.png)
 
-รุ่นมือถือที่นิยมมากที่สุด
+รุ่นมือถือที่นิยมมากที่สุดเรียงตามลำดับ
 
-* Apple iPhone 5s
-* Apple iPhone 5
-* Apple iPhone 6
-* Samsung Galaxy J7
-* Samsung Galaxy Grand 2
+1. Apple iPhone 5s
+2. Apple iPhone 5
+3. Apple iPhone 6
+4. Samsung Galaxy J7
+5. Samsung Galaxy Grand 2
 
 เวอร์ชั่น iOS
 
@@ -68,61 +68,61 @@ Server availability 99.98%
 
 * I Fine..Thank You Love You* จำนวน 127,720 ชั่วโมง
 
-ภาพยนต์ไทยที่มีคนดูเยอะสุด
+ภาพยนต์ไทยที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-* ไอฟาย..แต๊งกิ้ว..เลิฟยู้
-* โน้ส อุดม: เดี่ยวไมโครโฟน 11
-* พี่มาก..พระโขนง
-* คิดถึงวิทยา
-* ATM เออรัก..เออเร่อ
+1. ไอฟาย..แต๊งกิ้ว..เลิฟยู้
+2. โน้ส อุดม: เดี่ยวไมโครโฟน 11
+3. พี่มาก..พระโขนง
+4. คิดถึงวิทยา
+5. ATM เออรัก..เออเร่อ
 
-ภาพยนต์ฮอลลิวู้ดที่มีคนดูเยอะสุด
+ภาพยนต์ฮอลลิวู้ดที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-* I Am Number Four
-* Mission: Impossible III
-* Captain America: The First Avenger
-* Shooter
-* Watchmen
+1. I Am Number Four
+2. Mission: Impossible III
+3. Captain America: The First Avenger
+4. Shooter
+5. Watchmen
 
-ซีรียส์ที่มีคนดูเยอะสุด
+ซีรียส์ที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-* Marvel's Agents of S.H.I.E.L.D.
-* Constantine 
-* The Flash
-* ATM 2 คู่เว่อ..เออเร่อ..เออรัก
-* Marvel's Agent Carter
+1. Marvel's Agents of S.H.I.E.L.D.
+2. Constantine 
+3. The Flash
+4. ATM 2 คู่เว่อ..เออเร่อ..เออรัก
+5. Marvel's Agent Carter
 
-ภาพยนต์เอเชีย(ยกเว้นไทย)ที่มีคนดูเยอะสุด
+ภาพยนต์เอเชีย(ยกเว้นไทย)ที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-* Let's Go To Rose Motel
-* The Monkey King
-* The Concubine
-* Iceman
-* All About My Wife
+1. Let's Go To Rose Motel
+2. The Monkey King
+3. The Concubine
+4. Iceman
+5. All About My Wife
 
-ภาพยนต์อนิเมชั่นที่มีคนดูเยอะสุด
+ภาพยนต์อนิเมชั่นที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-* Kung Fu Panda
-* Cars 2
-* The Incredibles
-* Tangled
-* Toy Story
+1. Kung Fu Panda
+2. Cars 2
+3. The Incredibles
+4. Tangled
+5. Toy Story
 
 
 การค้นหา
 ====================
 ภาพยนต์ที่ทำการค้นหามากที่สุด
 
-* tomorrowland
-* เดี่ยว 11* 
-* harry potter
-* แฟนฉัน
-* ฝากไว้ในกายเธอ
-* ไอฟาย
-* พี่มากพระโขนง
-* The others
-* Hitting the Apex
-* barbie
+1. tomorrowland
+2. เดี่ยว 11
+3. harry potter
+4. แฟนฉัน
+5. ฝากไว้ในกายเธอ
+6. ไอฟาย
+7. พี่มากพระโขนง
+8. The others
+9. Hitting the Apex
+10. barbie
 
 ผู้ใช้งานค้นหาหนังและดูจำนวน 74.58%
 ผู้ใช้งานดูและเล่นหนังจากระบบแนะนำจำนวน 67.24%
