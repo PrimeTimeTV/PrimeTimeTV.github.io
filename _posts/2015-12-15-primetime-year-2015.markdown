@@ -8,57 +8,6 @@ tags: primetime 2015
 draft: false
 ---
 
-API Server
-====================
-First public release date on March 15, 2015
-Total operation day 274 days
-Total down time ~1 hour
-Server availability 99.98%
-
-สมาชิก
-====================
-จำนวนสมาชิก 1 ล้านคน
-
-เพศ
-
-![Gender](/img/primetime-2015/gender.png)
-
-ช่วงอายุผู้ใช้งาน
-
-* เด็กและวัยรุ่น 6%
-* มหาวิทยาลัย 39%
-* วัยทำงาน 44%
-* ผู้สูงอายุ 9%
-
-![Age](/img/primetime-2015/age.png)
-
-จำนวนผู้ใช้งานตามสถานที่
-
-* กรุงเทพฯและปริมณฑล 88%
-* ต่างจังหวัด 12%
-
-อุปกรณ์
-====================
-ระบบปฏิบัติการมือถือที่นิยมมากที่สุด
-
-![Mobile OS](/img/primetime-2015/mobile_os.png)
-
-รุ่นมือถือที่นิยมมากที่สุดเรียงตามลำดับ
-
-1. Apple iPhone 5s
-2. Apple iPhone 5
-3. Apple iPhone 6
-4. Samsung Galaxy J7
-5. Samsung Galaxy Grand 2
-
-เวอร์ชั่น iOS
-
-![iOS version](/img/primetime-2015/ios_version.png)
-
-เวอร์ชั่น Android
-
-![Android version](/img/primetime-2015/android_version.png)
-
 รายการ
 ====================
 จำนวนภาพยนตร์ทั้งหมด 1,362 เรื่อง
@@ -106,18 +55,3 @@ Server availability 99.98%
 4. Tangled
 5. Toy Story
 
-
-การค้นหา
-====================
-ภาพยนตร์ที่ทำการค้นหามากที่สุด
-
-1. tomorrowland
-2. เดี่ยว 11
-3. harry potter
-4. แฟนฉัน
-5. ฝากไว้ในกายเธอ
-6. ไอฟาย..แต๊งกิ้ว..เลิฟยู้
-7. พี่มากพระโขนง
-8. the others
-9. hitting the apex
-10. barbie
