@@ -1,7 +1,7 @@
 ---
 author: siri
 layout: post
-featimg: year-2015/year_2015.jpg
+featimg: primetime-2015/year_2015.jpg
 title: PrimeTime year in review 2015
 date:   2015-12-15 15:48:00
 tags: primetime 2015
