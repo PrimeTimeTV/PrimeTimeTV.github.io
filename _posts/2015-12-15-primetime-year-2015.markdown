@@ -31,7 +31,7 @@ draft: false
 4. Shooter
 5. Watchmen
 
-ซีรีย์์ที่มีคนดูเยอะสุดเรียงตามลำดับ
+ซีรีย์ที่มีคนดูเยอะสุดเรียงตามลำดับ
 
 1. Marvel's Agents of S.H.I.E.L.D.
 2. Constantine 
