@@ -25,19 +25,19 @@ draft: false
 
 ภาพยนตร์ฮอลลิวู้ดที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-1. I Am Number Four
-2. Mission: Impossible III
-3. Captain America: The First Avenger
-4. Shooter
-5. Watchmen
+1. Mission: Impossible III
+2. Captain America: The First Avenger
+3. Shooter
+4. Transformers
+5. Thor
 
 ซีรีย์ที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-1. Marvel's Agents of S.H.I.E.L.D.
-2. Constantine 
-3. The Flash
-4. ATM 2 คู่เว่อ..เออเร่อ..เออรัก
-5. Marvel's Agent Carter
+1. ATM 2 คู่เว่อ..เออเร่อ..เออรัก 
+2. Marvel's Agents of S.H.I.E.L.D. (S2)
+3. Marvel's Agents of S.H.I.E.L.D. (S1)
+4. GTH Side Stories
+5. Power
 
 ภาพยนตร์เอเชีย(ยกเว้นไทย)ที่มีคนดูเยอะสุดเรียงตามลำดับ
 
@@ -49,9 +49,9 @@ draft: false
 
 ภาพยนตร์อนิเมชั่นที่มีคนดูเยอะสุดเรียงตามลำดับ
 
-1. Kung Fu Panda
-2. Cars 2
-3. The Incredibles
-4. Tangled
-5. Toy Story
+1. The Incredibles
+2. Toy Story
+3. Finding Nemo
+4. Toy Story 2
+5. Aladdin And The King Of Thieves
 
