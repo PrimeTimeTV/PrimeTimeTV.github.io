@@ -1,7 +1,7 @@
 ---
 author: siri
 layout: post
-featimg: slack-bot/year_2015.jpg
+featimg: slack-bot/create_bot.png
 title: Slack BOT
 date:   2016-08-03 22:29:00
 tags: slack bot monitor
