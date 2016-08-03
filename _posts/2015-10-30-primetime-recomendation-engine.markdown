@@ -18,7 +18,7 @@ Solution
 ========
 We create big data to observe user behavior and use artificial intelligent to learn user characteristic and the movie. So we can pick the right movies and show up to the user in the recommendation section.
 
-![Recomenation for you](/img/recomendation-engine/recommended_for_you.png)
+![Recomendation for you](/img/recomendation-engine/recommended_for_you.png)
 
 Results
 =======
@@ -26,7 +26,7 @@ We collected the result after release this feature to the users after 2 months. 
 
 The funnel was calculated based on number of trials which customers view the content from recommended title and number content that customer play after view this recommended title.
 
-![Recomenation for you](/img/recomendation-engine/recomendation_results.png)
+![Recomendation for you](/img/recomendation-engine/recomendation_results.png)
 
 We found that 77.86% of trials watched the movie that we recommended to them. 
 
