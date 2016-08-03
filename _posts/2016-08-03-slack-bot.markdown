@@ -10,15 +10,21 @@ draft: false
 
 Slack has a lot of Open APIs that allows developers to extend its capabilities to make it even more useful. At PrimeTime we use Slack as main communication channel for all staffs. So I decide to experiment with a powerful tool to monitor the platform and help team to get useful information of the platform.
 
+
 In this article, I am going to build a [Slack bot](https://api.slack.com/bot-users) with NodeJS, and team can send any questions regards to server status to Slack bot and get the result. I decided to use NodeJS as an experiment since I have no experience with this technology. Slack bot uses [Real Time Messaging API](https://api.slack.com/rtm) which is quite complicate for newbies like me. So I use [Botkit](https://github.com/howdyai/botkit) as a library to integrate with Slack. The other experience was Slack Command which quite simple and easy to implement without much knowledge of NodeJS and Slack. I finished the [Slack Command](https://api.slack.com/slash-commands) which team can type /status to get the server status. I will describe later in another article.
+
 
 First, you need to create a new bot user for your team. Go to Slack integration settings and Add Bot Integration
 
+
 ![Create Bot](/img/slack-bot/create_bot.png)
+
 
 Then copy the API token. It should start with xoxb-xxxxxx. This is required to connect with the Slack.
 
+
 Create an empty text file and type the following code to start a bot
+
 
 ```javascript
 var Botkit = require('botkit');
@@ -43,12 +49,15 @@ controller.hears('hello', ['direct_message','direct_mention','mention'],function
 });
 ```
 
+
 Run the NodeJS file. you will see your bot name appears on the Slack. Then open direct message to your bot then type `hello`. Your bot will reponse with message `Hello!`
+
 
 You can find more example and functions at [Botkit](https://github.com/howdyai/botkit). 
 And this is the result of PrimeTime Bot. 
 
+
 ![PrimeTime Bot](/img/slack-bot/manee_bot.png)
 
-Now, everyone in team can find a status of servers in the easiest way and get fun with the Bot.
 
+Now, everyone in team can find a status of servers in the easiest way and get fun with the Bot.
