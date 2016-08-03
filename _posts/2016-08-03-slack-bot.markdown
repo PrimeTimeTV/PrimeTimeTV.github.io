@@ -5,7 +5,7 @@ featimg: slack-bot/year_2015.jpg
 title: Slack BOT
 date:   2016-08-03 22:29:00
 tags: slack bot monitor
-draft: true
+draft: false
 ---
 
 Slack has a lot of Open APIs that allows developers to extend its capabilities to make it even more useful. At PrimeTime we use Slack as main communication channel for all staffs. So I decide to experiment with a powerful tool to monitor the platform and help team to get useful information of the platform.
