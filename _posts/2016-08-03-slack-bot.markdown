@@ -20,7 +20,7 @@ Then copy the API token. It should start with xoxb-xxxxxx. This is required to c
 
 Create an empty text file and type the following code to start a bot
 
-```
+```javascript
 var Botkit = require('botkit');
 
 var controller = Botkit.slackbot({
@@ -43,12 +43,12 @@ controller.hears('hello', ['direct_message','direct_mention','mention'],function
 });
 ```
 
-Now, run the NodeJS file. you will see your bot name appears on the Slack. Then open direct message to your bot then type `hello`. Your bot will reponse with message `Hello!`
+Run the NodeJS file. you will see your bot name appears on the Slack. Then open direct message to your bot then type `hello`. Your bot will reponse with message `Hello!`
 
 You can find more example and functions at [Botkit](https://github.com/howdyai/botkit). 
 And this is the result of PrimeTime Bot. 
 
 ![PrimeTime Bot](/img/slack-bot/manee_bot.png)
 
-Now, everyone in team can find a status of servers in the easier way and get fun with the Bot
+Now, everyone in team can find a status of servers in the easiest way and get fun with the Bot.
 
